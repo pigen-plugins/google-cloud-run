@@ -24,3 +24,6 @@ go.work.sum
 # env file
 .env
 /terraform
+
+# binary files
+google_cloud_run
