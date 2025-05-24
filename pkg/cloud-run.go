@@ -31,6 +31,7 @@ type Config struct {
 
 type Output struct {
 	CloudRunUrl string `yaml:"cloud_run_url" json:"cloud_run_url"`
+	ServiceName string `yaml:"service_name" json:"service_name"`
 }
 
 
