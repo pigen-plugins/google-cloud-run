@@ -10,7 +10,7 @@ resource "google_cloud_run_v2_service" "pigen_cloudrun" {
   name     = var.service_name
   location = var.location
   ingress = var.ingress
-
+  deletion_protection = false
   template {
     containers {
       image = var.image
